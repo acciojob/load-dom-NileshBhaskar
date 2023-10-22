@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   while (body.firstChild) {
     body.removeChild(body.firstChild);
   }
-  let p = document.createElement('p');
-  p.textContent = "DOM load success";
-
-  body.appendChild(p);
+  // let p = document.createElement('p');
+  body.textContent = "DOM load success";
+  // body.appendChild(p);
 });
