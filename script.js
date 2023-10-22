@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   let body = document.getElementsByTagName('body')[0];
-  while (body.firstChild) {
-    body.removeChild(body.firstChild);
-  }
-  // let p = document.createElement('p');
+  // while (body.firstChild) {
+  //   body.removeChild(body.firstChild);
+  // }
   body.textContent = "DOM load success";
-  // body.appendChild(p);
 });
